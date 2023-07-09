@@ -4,13 +4,11 @@ import itertools
 
 iterator_s = iter(student_roster)
 
-#for i in range(len(student_roster)):
-  #print(next(iterator_s))
-
 alphabet = ClassroomOrganizer()
 
+for i in range(len(student_roster)):
+  print(next(alphabet))
 
-# print(alphabet._sort_alphabetically(student_roster))
 # print(alphabet.sitting(student_roster))
 
 fav_math = alphabet.get_students_with_subject('Math')
